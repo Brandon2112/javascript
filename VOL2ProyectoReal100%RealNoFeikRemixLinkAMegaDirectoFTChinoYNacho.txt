@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>“We all make choices, but in the end, our choices make us.”</h2>
+  <h2> Welcome to my Website <h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Personal Details</a></li>
+      <li><a href="#">Educational Details</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Interested</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Personal Details</h1>
+    <p> H E L L O </p>
+   <p> My name is Brandon Robles and i have 20 years old,and know i´m engineering student. </p>
+    <p>I was born in Queretaro City and actually im still living here and studying in the UPQ in the career of Computacional Systems and now i'm working in Prokarma Queretaro .</p>
+
+
+    <h1>Educational Details</h1>
+    <p> I was study in Conlaep Roberto Ruiz Obregon in Queretaro city and a got the title of technician in machines and tools in the 2017</p>
+   <p> Also i got the certification on SolidWorks . </p>
+    <p>Today i'm studying the University in Queretaro and it´s a travel that i'm enjoying so much  .</p>
+
+     <h1>Experience</h1>
+<p> When a was in highSchool i was made a profesional practice for 1 year in Kostal as a Technical in the Workshop of repairment of injection molds and make prevently maintenance <p>
+<p> I 
+
+
+
+
+</article>
+</section>
+
+<footer>
+  <p>PK@2019</p>
+</footer>
+
+</body>
+</html>
